@@ -1,0 +1,22 @@
+{
+    "name": "wemessage/module-specialprice-magento2",
+    "description": "A Magento 2 plugin that shows SpecialPrice if available at product edit page.",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Wemessage",
+            "email": "naberd@wemessage.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Wemessage\\SpecialPrice\\": ""
+        }
+    }
+}
